@@ -1,15 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: hsl(216, 12%, 8%);
   --foreground: #171717;
+  --grey900: hsl(213, 19%, 18%);
+  --grey500: hsl(217, 12%, 63%);
+  --orange: hsl(25, 97%, 53%);
+
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-grey900: var(--grey900);  
+  --color-grey500: var(--grey500);
+  --color-orange: var(--orange);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-overpass: var(--font-overpass);
 }
 
 @media (prefers-color-scheme: dark) {
